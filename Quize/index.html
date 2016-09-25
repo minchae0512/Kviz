@@ -6,7 +6,10 @@
   <title>Quize</title>
 </head>
 <body>
-
+<div class="player">
+  <button class="play">Play</button>
+  <button class="pause">Pause</button>
+</div>
   <div class="outer">
     <div class="dots">
       <span></span>
@@ -14,18 +17,32 @@
       <span></span>
     </div>
     <div class="inner">
-      <div class="card showing">
+      <div class="card showing begin">
         <h3>Are you ready?</h3>
           <button class="yes">Yes</button>
           <button class="no">No</button>
       </div>
       <div class="card yes">
-        <h3>Are you ready?</h3>
-          <button class="yes">Yes</button>
+        <h3>Favourit animal:</h3>
+          <button class="second">Yes</button>
       </div>
+      <div class="card second">
+        <h3>Favourit color:</h3>
+          <button class="third">Yes</button>
+      </div>
+      <div class="card third">
+        <h3>Favourit color:</h3>
+          <button class="final">Yes</button>
+      </div>
+      <div class="card final">
+        <h3>You got:</h3>
+          <button class="begin">Try again</button>
+      </div>
+
+
       <div class="card no">
-        <h3>Are you ready?</h3>
-          <button class="no">No</button>
+        <h3>Take your time!</h3>
+          <button class="start">No</button>
       </div>
     </div>
   </div>
