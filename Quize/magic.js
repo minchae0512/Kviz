@@ -18,6 +18,10 @@ $(document).ready(function(){
 
 
 
+          $('.yes').click(function() {
+          audioElement.play();
+          });
+
           $('.play').click(function() {
           audioElement.play();
           });
